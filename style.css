@@ -92,6 +92,10 @@
      background-color: red;
      color: whitesmoke;
 }
+#upcoming{
+    background-color: red;
+    color: whitesmoke;
+}
 .right-section{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
@@ -172,3 +176,130 @@ footer hr{
 .footers a:hover{
     color: red;
 }
+
+
+/* ----------------------------Desktop view done--------------------------------- */
+
+
+/* ------------------------tablet view start------------------ */
+
+@media only screen and (max-width: 834px) and (min-width:601px) {
+    .top-header {
+        width: 734px;
+        height: 398px;
+    }
+
+    .header-title {
+        padding: 39px 54px;
+    }
+
+    .top-header img {
+        width: 323px;
+        padding-top: 55px;
+        padding-right: 23px;
+    }
+
+    .top-header h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .top-header p {
+        font-size: 12px;
+    }
+    .watch-button{
+        padding: 10px 20px;
+    font-size: 15px;
+    }
+    .fa-angle-right{
+        font-size: 15px;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+
+    .right-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .left-section {
+        display: flex;
+        width: 734px;
+        height: 130px;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+
+
+    }
+
+    .left-section a {
+        width: 230px;
+        border: 1px solid #E8E8E8;
+        font-size: 20px;
+    }
+
+    .schedule-section {
+        flex-direction: column;
+        width: 734px;
+    }
+
+    .footers {
+        width: 626px;
+        height: 90px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footers a {
+        margin-right: 24px;
+    }
+
+}
+
+
+/* --------------------------------------mobile view-------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+    .top-header {
+        display: flex;
+        flex-direction: column;
+        width: 334px;
+        height: 472px;
+    }
+
+    .top-header div {
+        width: 100%;
+    }
+
+    .header-title {
+        width: 258px;
+        padding: 21px 38px;
+        text-align: center;
+    }
+
+    .top-header h1 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .top-header p {
+        font-size: 14px;
+    }
+
+    .top-header-image {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .top-header img {
+
+        width: 233px;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+}
+
