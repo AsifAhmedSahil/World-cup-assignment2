@@ -1,0 +1,174 @@
+
+
+.top-header{
+    height: 646px;
+    width: 1321px;
+    border-radius: 35px;
+    background-color: #131313;
+    display: flex;
+    margin: 50px auto;
+    color: whitesmoke;
+}
+.top-header div{
+    width: 50%;
+    
+}
+.top-header img{
+    width: 570px;
+    padding-right: 70px;
+    padding-top: 40px;
+}
+.header-title{
+    padding: 100px 110px;
+}
+
+
+.header-title h1{
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+
+}
+.header-title p{
+    font-size: 16px;
+    margin-bottom: 37px;
+    font-weight: 400;
+    line-height: 22px;
+    color: lightgray;
+}
+.watch-button{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: red;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 36px;
+    border-radius: 5px;
+    /* display: flex; */
+    
+}
+.fa-angle-right{
+    font-size: 20px;
+    margin-left: 12px;
+    /* padding-top: 5px; */
+    
+}
+.schedule-section{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: flex-end;
+}
+.left-section a{
+    text-decoration: none;
+    color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    background-color: whitesmoke;
+    
+
+}
+#red-blog{
+     background-color: red;
+     color: whitesmoke;
+}
+.right-section{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.card{
+    width: 312px;
+    height: 362px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 24px;
+    margin-bottom: 30px;
+}
+.card-info{
+    padding: 22px;
+}
+.card-info a{
+    text-decoration: none;
+    font-weight: 500;
+
+    font-size: 20px;
+    color: #131313;
+    border: 1px solid #131313;
+    border-radius: 10px;
+    padding: 5px 15px ;
+}
+.card-info h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.time-comment-icon{
+    display: flex;
+}
+.time-comment-icon p{
+    margin: 0;
+    /* padding: 0; */
+    margin-right: 30px;
+    margin-top: 5px;
+    
+}
+.blog-icon{
+    margin-left: 2px;
+}
+
+footer{
+    background-color: #131313;
+    /* width: 100vw; */
+    height: 350px;
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    
+}
+footer hr{
+    width: 80%;
+    /* border: none; */
+    border: .5px solid lightgray;
+    
+    /* background-color: whitesmoke; */
+
+    
+}
+.footers{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    margin: 80px auto 80px auto;
+}
+.footers a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: lightgray;
+}
+.footers a:hover{
+    color: red;
+}
